@@ -30,6 +30,14 @@ npm i
 
 ### running the project locally
 
+⚠️⚠️
+
+In order to have a better development/testing experience, `Github API` requires authentication. You can read more about it [here](https://docs.github.com/en/rest/guides/getting-started-with-the-rest-api?apiVersion=2022-11-28#authenticating).
+
+You can do that by creating a [Github personal Access Token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens) and assigning it to the `VITE_GH_TOKEN` variable inside the [env file](./.env).
+
+⚠️⚠️
+
 ```js
   yarn dev
 ```
